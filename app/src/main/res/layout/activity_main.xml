@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:autofillHints=""
+        android:gravity="center"
+        android:background="@drawable/edit_round"
+        android:hint="ingrese su nombre"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_round"
+        android:text="ingresar"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>
