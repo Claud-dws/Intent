@@ -16,7 +16,7 @@
         android:autofillHints=""
         android:gravity="center"
         android:background="@drawable/edit_round"
-        android:hint="ingrese su nombre de usuario"
+        android:hint="ingrese su nombre"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         android:selectAllOnFocus="false"
